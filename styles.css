@@ -1,0 +1,158 @@
+body{
+    background: #1F0152;
+   
+}
+
+* {
+    box-sizing: border-box ;
+    margin: 0;
+    
+}
+
+/* navigation top */
+.nav-container{
+    background: #1F0152;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav ul{
+    display: flex;
+    
+
+}
+    /*logo*/
+nav .logo{
+    width: 25px;
+    height: 29px;
+}
+
+.one-eye{
+    margin-top: -35px;
+    margin-left: 5px;
+}
+
+.second-eye{
+    margin-top: -13px;
+    margin-left: 5px;
+}
+
+.third-eye{
+    margin-top: -20px;
+    margin-left: 9px;
+}
+
+/*top lorem*/
+nav li{
+    list-style: none;
+    margin-right: 70px;
+    margin-top:35px;
+    
+}
+
+nav-items li:nth-last-of-type(1){
+    margin: 0;
+}
+/*lorem text*/
+.hero-container{
+    margin-right: 800px;
+    
+}
+
+
+/*face image*/
+.face-image{
+    width: 200px;
+    height: 400px;
+    object-fit: none;
+    object-position: absolute;
+    margin-top:-230px;
+    margin-left:180px;
+    background:url("images/Face.png") no-repeat;
+   
+
+}
+
+.column {
+    float: left;
+    width: 15%;
+    padding: 1px;
+    margin-left:-0px;
+    margin-right: -80px;
+    margin-top: -119px;
+  }
+  
+  .columm{
+    float: left;
+    width: 15%;
+    margin-left:-5px;
+    margin-right: -73px;
+    margin-top: -110px;
+  }
+
+  #line{
+   
+    width: 84px;
+    height: 0px;
+    left: 309px;
+    top: 540px;
+    border: 1px solid #6201C2;
+  }
+  
+  .button {
+    padding: 0px 0px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #6201C2;
+    border: none;
+    border-radius: 600px;
+    box-shadow: 0 6px #5e2b91;
+  }
+  
+  .button:hover {background-color: #7f2ad3}
+  
+  .button:active {
+    background-color: #6201C2;
+    box-shadow: 0 px #6201C2;
+    transform: translateY(4px);
+  }
+
+  .social-media{
+    margin-left:-60px;
+    margin-top:70px;
+    float: left;
+  }
+
+  .logoo{
+    margin-top: -25px;
+    margin-left: -350px;
+  }
+
+  .Ellipse1{
+    margin-top:-35px;
+    margin-left: 5px;
+    object-position: absolute;
+  }
+
+  .Ellipse2{
+    margin-top:-13px;
+    margin-left: 5px;
+    object-position: absolute;
+  }
+
+  .Ellipse3{
+    margin-top:-20px;
+    margin-left: 9px;
+    object-position: absolute;
+  }
